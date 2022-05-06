@@ -30,7 +30,7 @@
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
-    "glob-watcher": "^5.0.3",
+    "glob-watcher": "git+https://github.com/rosdyana-asus/glob-watcher.git",
     "gulp-cli": "git+https://github.com/rosdyana-asus/gulp-cli.git",
     "undertaker": "^1.2.1",
     "vinyl-fs": "^3.0.0"
